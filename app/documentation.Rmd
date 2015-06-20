@@ -1,0 +1,19 @@
+---
+title: "H1b visa heathmap documentation"
+output: html_document
+---
+
+The application creates a map showing H1B visa related information across different states in US.The data is available for the period between October 1, 2014 through March 30, 2015. It can be downloaded from [here](http://www.foreignlaborcert.doleta.gov/docs/py2015q2/H-1B_FY15_Q2.xlsx) along with the [Codebook](http://www.foreignlaborcert.doleta.gov/docs/py2015q2/H-1B_FY15_Record_Layout.doc)
+
+Given the size of dataset (~80mb) the xlsx file is converted to csv and only relevent columns are extracted from it into a datatable. To run the application on local machine download this folder from [github](https://github.com/meeshu/dataprod-PA1), and install the necessary libraries mentioned below:
+
+```{r, eval=FALSE}
+
+install.packages('data.table')
+install.packages('RColorBrewer')
+install.packages('devtools')
+install.packages('maps')
+install.packages('mapproj')
+install.packages('dplyr')
+install.packages('DT')
+```
