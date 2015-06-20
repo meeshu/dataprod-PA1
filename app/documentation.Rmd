@@ -1,5 +1,5 @@
 ---
-title: "H1b visa heathmap documentation"
+title: "H1b visa heatmap documentation"
 output: html_document
 ---
 
@@ -17,3 +17,5 @@ install.packages('mapproj')
 install.packages('dplyr')
 install.packages('DT')
 ```
+
+The view the different heatmaps just select the various options from the dropdown!

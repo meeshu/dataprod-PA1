@@ -31,7 +31,7 @@ shinyServer(
                                     "No. of cases registered" = "No. of cases",
                                     "No. of full time positions applications" = "No. of full time positions",
                                     "No. of workers needed" = "No. of workers")
-                  #visabystate<-data.frame(visabystate)
+                 
                   
                   percent_map(DT=visabystate,var = data,statelist='employer_state', pal = palname,legend.title=legtitle)
                   
